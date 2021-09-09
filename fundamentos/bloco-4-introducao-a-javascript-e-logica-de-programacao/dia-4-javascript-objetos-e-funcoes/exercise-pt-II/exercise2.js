@@ -1,14 +1,16 @@
-let ArrayDeTeste = [2, 3, 6, 7, 10, 1];
-let maiorNumero = 0;
+let arrayDeTeste = [2, 3, 6, 7, 10, 1];
 
- function maiorIndice (ArrayDeTeste)
-  for (index = 0; index < ArrayDeTeste.length; index += 1) {
-      maiorNumero = ArrayDeTeste[index];
-      if (maiorNumero > ArrayDeTeste[index +1]){
-      console.log(maiorNumero);
-      } 
-  } 
-  
+ function maiorIndice () {
+ let maiorIndice = 0;
+  for (let key in arrayDeTeste) {
+    if (arrayDeTeste[key] > arrayDeTeste[maiorIndice]) {
+      maiorIndice = key
+    }
+  }
+  return maiorIndice
+} 
+  console.log(maiorIndice()) 
+   maiorIndice()
 
  
 
