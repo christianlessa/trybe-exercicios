@@ -124,3 +124,17 @@ function changeTextSize() {
 changeTextSize();
 
 
+// exercise 7
+ 
+
+
+ function newTarefa (allTasks) {
+   const tasks = document.querySelector('.my-tasks');
+   const element = document.createElement('span');
+    
+   element.innerHTML = allTasks;
+   tasks.appendChild(element);
+ }
+ newTarefa('Projeto:');
+
+ 
