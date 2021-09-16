@@ -51,7 +51,6 @@ createHolidayButton('Feriados');
 
 //exercise 3
 
-
 function changeHolidayBackground(){
   const getHolidayButton = document.querySelector('#btn-holiday');
   const getHolidays = document.querySelectorAll('.holiday');
@@ -107,8 +106,6 @@ changeFridayText();
 
 //exercise 6
 
-
-
 function changeTextSize() {
   const dayList = document.querySelectorAll('.day');
   for (let index = 0; index < dayList.length; index += 1) {
@@ -124,9 +121,7 @@ function changeTextSize() {
 changeTextSize();
 
 
-// exercise 7
- 
-
+//exercise 7
 
  function newTarefa (allTasks) {
    const tasks = document.querySelector('.my-tasks');
@@ -138,3 +133,13 @@ changeTextSize();
  newTarefa('Projeto:');
 
  
+//exercise 8
+
+function tarefaColor (cor) {
+   const tagDiv = document.createElement('div');
+   tagDiv.classList.add('task')
+   tagDiv.style.backgroundColor = cor;
+   const tagSectionChild = document.getElementsByName('selection')[0]
+   tagSectionChild.appendChild(tagDiv)
+   // errado
+}

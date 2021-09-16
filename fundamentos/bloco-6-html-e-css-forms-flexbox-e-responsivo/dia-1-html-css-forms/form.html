@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+        <label for="inputName">Nome</label>
+        <input
+          type="text"
+          name="inputName"
+          required
+          id="inputName"
+          maxlength="40"
+          autofocus
+        />
+        <label for="inputEmail">Email</label>
+        <input type="text" required id="inputEmail" maxlength="50" />
+        <label for="inputCPF">CPF</label>
+        <input type="text" required id="inputCPF" />
+        <label for="inputEndereco">Endereço</label>
+        <input type="text" required id="inputEndereco" />
+        <label for="inputCidade">Cidade</label>
+        <input type="text" required id="inputCidade" />
+        <label for="inputEstado">Estado</label>
+        <input type="text" required id="inputEstado" />
+        <label for="inputTipo">Tipo</label>
+        <input type="text" required id="inputTipo" />
+      </fieldset>
+      <fieldset>
+        <label for="resumo">Resumo do currículo</label>
+        <textarea
+          name="resumo"
+          id="resumo"
+          rows="10"
+          maxlength="1000"
+        ></textarea>
+        <label for="inputCargo">Cargo</label>
+        <input type="text" required id="inputCargo" maxlength="40" />
+        <label for="inputDescricao">Descrição do cargo</label>
+        <input
+          type="text"
+          name="inputName"
+          required
+          id="inputDescricao"
+          maxlength="500"
+        />
+        <label for="inputData">Data de início</label>
+        <input type="date" required id="inputData" />
+      </fieldset>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
