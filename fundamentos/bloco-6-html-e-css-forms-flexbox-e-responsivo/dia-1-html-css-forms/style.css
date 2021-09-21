@@ -1,0 +1,49 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+#inputName {
+  width: 250px;
+}
+
+#inputEmail {
+  width: 250px;
+}
+
+#inputCPF {
+  width: 250px;
+}
+
+#inputEndereco {
+  width: 250px;
+}
+
+#inputCidade {
+  width: 250px;
+}
+
+#inputEstado {
+  width: 250px;
+}
+
+#inputTipo {
+  width: 250px;
+}
+
+#inputResumo {
+  width: 400px;
+  height: 200px;
+}
+
+#inputCargo {
+  width: 250px;
+}
+
+#inputDescricao {
+  width: 250px;
+}
+
+#inputData {
+  width: fit-content;
+}
