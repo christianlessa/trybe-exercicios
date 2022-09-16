@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <form action="">
+    <form action="" method="GET" id="form1">
       <fieldset>
         <label for="inputName">Nome</label>
         <input
@@ -29,9 +29,14 @@
         <label for="inputCidade">Cidade</label>
         <input type="text" required id="inputCidade" />
         <label for="inputEstado">Estado</label>
-        <input type="text" required id="inputEstado" />
-        <label for="inputTipo">Tipo</label>
-        <input type="text" required id="inputTipo" />
+        <select name="state" id="inputEstado" required></select>
+        <label for="">Tipo</label>
+        <div class="tipoMoradiaContainer">
+          <label for="casa">Casa</label>
+          <input type="radio" name="tipo" id="casa" class="tipoMoradia" required>
+          <label for="ap">Apartamento</label>
+          <input type="radio" name="tipo" id="ap" class="tipoMoradia" required>
+        </div>
       </fieldset>
       <fieldset>
         <label for="resumo">Resumo do currículo</label>
@@ -54,7 +59,12 @@
         <label for="inputData">Data de início</label>
         <input type="date" required id="inputData" />
       </fieldset>
+      <fieldset>
+      </fieldset>
     </form>
+    <button type="submit" form="form1" value="submit" id="submitButton">Enviar</button>
+    <button id="clearButton">Limpar</button>
+    <p id="textForms"></p>
     <script src="./script.js"></script>
   </body>
 </html>
