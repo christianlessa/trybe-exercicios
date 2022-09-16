@@ -5,30 +5,38 @@ fieldset {
 
 #inputName {
   width: 250px;
+  height: 20px;
 }
 
 #inputEmail {
   width: 250px;
+  height: 20px;
 }
 
 #inputCPF {
   width: 250px;
+  height: 20px;
 }
 
 #inputEndereco {
   width: 250px;
+  height: 20px;
 }
 
 #inputCidade {
   width: 250px;
+  height: 20px;
 }
 
 #inputEstado {
-  width: 250px;
+  width: 258px;
+  height: 25px;
+  margin-bottom: 8px;
 }
 
 #inputTipo {
   width: 250px;
+  height: 20px;
 }
 
 #inputResumo {
@@ -38,12 +46,35 @@ fieldset {
 
 #inputCargo {
   width: 250px;
+  height: 20px;
 }
 
 #inputDescricao {
   width: 250px;
+  height: 20px;
 }
 
 #inputData {
   width: fit-content;
+}
+
+.tipoMoradiaContainer {
+  display: block;
+  padding-top: 10px;
+}
+
+.tipoMoradia {
+  display: inline-block;
+}
+
+#submitButton {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#clearButton {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
 }
